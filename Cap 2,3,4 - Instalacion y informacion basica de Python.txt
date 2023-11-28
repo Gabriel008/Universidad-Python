@@ -1,0 +1,31 @@
+Ir a https://www.python.org/downloads/
+
+-Descargar y Ejecutar
+-Check install launcher for all user y Add Python 3.xx to PATH
+-Cuztomize installation
+-All check y Next
+-Check Install for all users, Install
+-Closed
+
+---------------------------------------------------------------
+Instalacion PyCharm (IDE)
+
+https://www.jetbrains.com/pycharm/download/
+
+-Buscar version comunity
+-Ejecutar como administrador, Next a todo
+
+customize> para cambiar de tema de IDE y tamaño de letra de fuente
+
+---------------------------------------------------------------
+Caracteristicas Generales
+
+Python es un lenguaje interpretado muy popular ya que sirve par crear multibles 
+sistemas de proposito general. Desde desarrollo web, inteligencia artificial, 
+ciencia de datos, desarrollo de aplicaciones de escritorio, etc. Asi que los 
+usos y aplicaciones de Python al dia de hoy son multiples. otras de las 
+ventajas de python es que es multiplataformas, de sintaxis simple. 
+
+
+
+
