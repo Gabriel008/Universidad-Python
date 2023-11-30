@@ -1,12 +1,5 @@
-# Cap 17 - Tipos boleanos (bool) en Python
-
-miVariable = False
-print(miVariable)
-
-miVariable = 3 > 2
-print(miVariable)
-
-if miVariable:
-    print("El Resultado fue verdadero")
-else:
-    print("El Resultado fue falso")
+# Cap 18 - Entrada de usuario o input en Python
+# Funcion input para procesar la entrada del usuario
+resultado = input("Escribe un mensaje: ")
+print("valor proporcionado:", resultado)
+print("---Fin del programa---")
