@@ -1,5 +1,7 @@
-# Cap 18 - Entrada de usuario o input en Python
-# Funcion input para procesar la entrada del usuario
-resultado = input("Escribe un mensaje: ")
-print("valor proporcionado:", resultado)
+# Cap 19 - conversion de Entrada de datos en Python
+
+numero1 = int(input("Escribe el primer numero: "))
+numero2 = int(input("Escribe el segundo numero: "))
+resultado = numero1 + numero2
+print("El resultado de la suma es:", resultado)
 print("---Fin del programa---")
