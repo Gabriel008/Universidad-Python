@@ -1,16 +1,12 @@
-# Cap 16 - Mas manejo de cadenas en Python
+# Cap 17 - Tipos boleanos (bool) en Python
 
-miGrupoFavorito = "Aerosmith"
-comentario = "The Best Rock Band"
-# print("Mi grupo favorito es: " + miGrupoFavorito + " " + comentario)  # + como concatenacion basica
-print("Mi grupo favorito es:", miGrupoFavorito, comentario)
+miVariable = False
+print(miVariable)
 
-numero1 = "1"
-numero2 = "2"
-print(numero1 + numero2)  # concatenacion
-print("Suma:", int(numero1) + int(numero2))  # cast
+miVariable = 3 > 2
+print(miVariable)
 
-numero1 = 1
-numero2 = 2
-print(numero1 + numero2)  # suma
-# A sto se le llama sobrecarga de operadores
+if miVariable:
+    print("El Resultado fue verdadero")
+else:
+    print("El Resultado fue falso")
