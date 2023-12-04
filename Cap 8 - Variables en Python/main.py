@@ -1,7 +1,5 @@
-# Cap 19 - conversion de Entrada de datos en Python
+# Cap 20,21 - Ejercicio: Califica tu dia Python
 
-numero1 = int(input("Escribe el primer numero: "))
-numero2 = int(input("Escribe el segundo numero: "))
-resultado = numero1 + numero2
-print("El resultado de la suma es:", resultado)
+resultado = int(input('Como estuvo tu dia (1 al 10):'))
+print("Mi dia estuvo de:", resultado)
 print("---Fin del programa---")
