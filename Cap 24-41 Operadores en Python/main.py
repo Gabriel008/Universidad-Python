@@ -1,41 +1,21 @@
-# Cap 25 - Operadores Aritmeticos en Python - Parte2
+# Cap 26-27 - Ejercicio: Rectangulo en Python
+"""
+Se solicita calcular el Area y el perimetro de un rectangulo, para ello debemos crear la siguientes variables
+    alto (int)
+    ancho (int)
+El usuario debe proporcionar los valores de largo y ancho y despues se debe imprimir  en el siguiente formato
+    Proporciona el alto:
+    Proporciona el ancho:
+    Area:<Area>
+    Perimetro:<perimetro>
 
-operandoA = 3
-operandoB = 2
-# ----------------------------------------#
+Las formulas para calcular el area y el perimetro de un rectangulo son:
+    Area:alto*ancho
+    perimetro:(alto + ancho)*2
+"""
 
-suma = operandoA + operandoB
-# print('Resultado de la suma:', suma)
-print(f'Resultado suma: {suma}')
-
-# ----------------------------------------#
-
-resta = operandoA - operandoB
-print(f'Resultado de la resta: {resta}')
-
-# ----------------------------------------#
-
-multiplicacion = operandoA * operandoB
-print(f'Resultado de la multiplicacion: {multiplicacion}')
-
-# ----------------------------------------#
-
-division = operandoA / operandoB
-print(f'Resultado de la division: {division}')
-
-# ----------------------------------------#
-
-divEntera = operandoA // operandoB
-print(f'Resultado de la division entera: {divEntera}')
-
-# ----------------------------------------#
-
-modulo = operandoA % operandoB
-print(f'Resultado moduloa: {modulo}')
-
-# ----------------------------------------#
-
-exponente = operandoA ** operandoB
-print(f'Resultado exponenete: {exponente}')
-
-# ----------------------------------------#
+alto = int(input('Proporciona el alto del rectangulo:'))
+ancho = int(input('Proporciona el ancho del rectangulo:'))
+print(f'Area: {alto * ancho}')
+print(f'Perimetro: {(alto + ancho) * 2}')
+print('------Fin del programa------')
