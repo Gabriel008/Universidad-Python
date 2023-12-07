@@ -1,23 +1,24 @@
-# Cap 28 - Operadores de asignacion en Python
+# Cap 29 - Operadores de Comparacion en Python
 
-miVariable = 10
-print(miVariable)
+a = 4
+b = 2
 
-miVariable = miVariable + 1
-print(miVariable)
 
-# Incremento con reasignacion
-miVariable += 1
-print(miVariable)
+# resultado = (a == b)
+resultado = a == b
+print(f'Resultado == : {resultado}')
 
-# miVariable = miVariable-2
-miVariable -= 2
-print(miVariable)
+resultado = a != b
+print(f'Resultado != : {resultado}')
 
-# miVariable = miVariable*3
-miVariable *= 3
-print(miVariable)
+resultado = a > b
+print(f'Resultado > : {resultado}')
 
-# miVariable = miVariable/2
-miVariable /= 2
-print(miVariable)
+resultado = a >= b
+print(f'Resultado >= : {resultado}')
+
+resultado = a < b
+print(f'Resultado < : {resultado}')
+
+resultado = a <= b
+print(f'Resultado <= : {resultado}')
