@@ -1,24 +1,22 @@
-# Cap 29 - Operadores de Comparacion en Python
+# Cap 30 - Ejercicio: Numero par o impar
+"""
+                    Algoritmo par_impar
+                                |
+                                v
+                    'Por favor ingrese un ...'
+                                |
+                                v
+                                a
+                                |
+                                v
+                        <- a mod 2=0 ->
+F:'No es un numero par'                    T:'Es un numero par'
+"""
 
-a = 4
-b = 2
+a = int(input('Por favor ingrese un numero: '))
+if (a % 2 == 0):
+    print(f'El valor de a {a} es un numero par')
+else:
+    print(f'El valor de a {a} es un numero impar')
 
-
-# resultado = (a == b)
-resultado = a == b
-print(f'Resultado == : {resultado}')
-
-resultado = a != b
-print(f'Resultado != : {resultado}')
-
-resultado = a > b
-print(f'Resultado > : {resultado}')
-
-resultado = a >= b
-print(f'Resultado >= : {resultado}')
-
-resultado = a < b
-print(f'Resultado < : {resultado}')
-
-resultado = a <= b
-print(f'Resultado <= : {resultado}')
+print('--- Fin algoritmo ---')
