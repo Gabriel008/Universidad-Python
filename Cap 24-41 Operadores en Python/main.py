@@ -1,22 +1,22 @@
-# Cap 30 - Ejercicio: Numero par o impar
+# Cap 31 - Ejercicio: Determinar si es mayor de edad
 """
-                    Algoritmo par_impar
+                    Algoritmo MayorEdad
                                 |
                                 v
-                    'Por favor ingrese un ...'
+                       'Escribe tu edad: '
                                 |
                                 v
-                                a
+                              edad
                                 |
                                 v
-                        <- a mod 2=0 ->
-F:'No es un numero par'                    T:'Es un numero par'
+                        <- edad >= 18 ->
+F:'Eres menor de edad'                    T:'Eres mayor de edadr'
 """
 
-a = int(input('Por favor ingrese un numero: '))
-if (a % 2 == 0):
-    print(f'El valor de a {a} es un numero par')
+edad = int(input('Escribe tu edad: '))
+if (edad >= 18):
+    print(f'Tu edad es: {edad}. Eres mayor de edad')
 else:
-    print(f'El valor de a {a} es un numero impar')
+    print(f'Tu edad es: {edad}. Eres menor de edad')
 
 print('--- Fin algoritmo ---')
