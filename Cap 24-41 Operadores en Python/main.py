@@ -1,22 +1,19 @@
-# Cap 31 - Ejercicio: Determinar si es mayor de edad
-"""
-                    Algoritmo MayorEdad
-                                |
-                                v
-                       'Escribe tu edad: '
-                                |
-                                v
-                              edad
-                                |
-                                v
-                        <- edad >= 18 ->
-F:'Eres menor de edad'                    T:'Eres mayor de edadr'
+# Cap 32 - Operadores logicos en Python
 """
 
-edad = int(input('Escribe tu edad: '))
-if (edad >= 18):
-    print(f'Tu edad es: {edad}. Eres mayor de edad')
-else:
-    print(f'Tu edad es: {edad}. Eres menor de edad')
+    and -> Devuelve True sia mbos operados son True. (a and b)
+    or  -> Devuelve True si alguno de los operadores es True. (a or b)
+    not -> Devuelve True si alguno de los operados es False. (not a)
 
-print('--- Fin algoritmo ---')
+"""
+
+a = True
+b = False
+resultado = a and b
+print(resultado)
+
+resultado = a or b
+print(resultado)
+
+resultado = not a
+print(resultado)
