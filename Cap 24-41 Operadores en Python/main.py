@@ -1,12 +1,9 @@
-# Cap 33 - Ejercicio: valor dentro del rango (AND) en Python
+# Cap 34 - Ejercicio: operador Or en Python
 
-valor = int(input('Escrive el valor: '))
-valorMinimo = 0
-valormaximo = 5
+vacaciones = False
+diaDescanso = True
 
-dentroRango = (valor >= valorMinimo) and (valor <= valormaximo)
-
-if dentroRango:
-    print(f'El valor {valor} está dentro de rango')
+if vacaciones or diaDescanso:
+    print('Puede asistir al juego')
 else:
-    print(f'El valor {valor} está fuera de rango')
+    print('Tiene deberes por hacer')
