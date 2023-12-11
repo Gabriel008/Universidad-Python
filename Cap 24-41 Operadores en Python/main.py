@@ -1,19 +1,12 @@
-# Cap 32 - Operadores logicos en Python
-"""
+# Cap 33 - Ejercicio: valor dentro del rango (AND) en Python
 
-    and -> Devuelve True sia mbos operados son True. (a and b)
-    or  -> Devuelve True si alguno de los operadores es True. (a or b)
-    not -> Devuelve True si alguno de los operados es False. (not a)
+valor = int(input('Escrive el valor: '))
+valorMinimo = 0
+valormaximo = 5
 
-"""
+dentroRango = (valor >= valorMinimo) and (valor <= valormaximo)
 
-a = True
-b = False
-resultado = a and b
-print(resultado)
-
-resultado = a or b
-print(resultado)
-
-resultado = not a
-print(resultado)
+if dentroRango:
+    print(f'El valor {valor} está dentro de rango')
+else:
+    print(f'El valor {valor} está fuera de rango')
