@@ -1,13 +1,15 @@
-# Cap 36 - Ejercicio: Rango entre 20's y 30's en Python
+# Cap 37 - Sintaxis simplificada operador AND Python
 
 edad = int(input('Intruduce tu edad: '))
 
-"""veintes = edad >= 20 and edad < 30
-print("20's:", veintes)
-treintas = edad >= 30 and edad < 40
-print("30's:", treintas)"""
+"""
+    veintes = edad >= 20 and edad < 30
+    print("20's:", veintes)
+    treintas = edad >= 30 and edad < 40
+    print("30's:", treintas)
+"""
 
-if (edad >= 20 and edad < 30) or (edad >= 30 and edad < 40):
+if (20 <= edad < 30) or (30 <= edad < 40):
     print('Dentro de rango 20\'s o 30\'s')
     """    
         if veintes:
