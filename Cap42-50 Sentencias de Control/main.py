@@ -1,14 +1,15 @@
-# Cap 43 - Ejecucion modo debug en Python
+# Cap 44 - convertir valor numerico a texto en Python
 
-# Modo debug sirve para ver la trasa del codigo.
-# Para entrar en modo debug, seleciona un numero de linea de codigo, click derecho 'debug main'
-# Avanza en el codigo presionando F8
+numero = int(input('Proporciona un valor entre 1 y 3: '))
+numeroTexto = ''
 
-condicion = False
-
-if (condicion == True):
-    print('Condicion verdadera')
-elif (condicion == False):
-    print('Condicion Falsa')
+if (numero == 1):
+    numeroTexto = 'Número uno'
+elif (numero == 2):
+    numeroTexto = 'Número dos'
+elif (numero == 3):
+    numeroTexto = 'Número tres'
 else:
-    print('Condicion no reconocida')
+    numeroTexto = 'Valor fuera de rango'
+
+print(f'Número proporcionado: {numero} - {numeroTexto}')
